@@ -1,7 +1,7 @@
 # VMware Workstation Pro on Azure VM 
 
 🔧 Requirements of Azure VM
-- **VM Size**: E Series with Intel Process. IE: E2ds, E4ds ...
+- **VM Size**: E Series with Intel Process. Example: E2ds, E4ds ...
 - **OS**: Windows 10 Enterprise 22H2 - V1 (generation 1) used in my case. The one available in Marketplace as recording of today 12/08/2025 
 - **Hypervisor**: Hyper-V must be enabled inside the VM.
 
