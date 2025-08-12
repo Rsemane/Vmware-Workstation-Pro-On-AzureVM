@@ -173,4 +173,21 @@ Restart your VM.
 ![bootup](images/windows10-bootedup-4.png)
 
 
+# Networking Information
+
+VMware Workstation creates two default virtual networks:
+
+- VMnet8 (NAT): Used to provide internet access to virtual machines through network address translation.
+- VMnet1 (Host-Only): Used to establish a private LAN between the host and guest machines without external connectivity.
+There is no need to install a separate DHCP server, as VMware includes a built-in DHCP service for these networks.
+
+To enable network communication between your Azure VM and the guest operating system, ensure that ICMP (ping) is allowed through the Windows Firewall. Alternatively, you can disable the firewall on both the Azure VM and the guest VM to simplify connectivity during testing.
+
+
+## Allow ICMP 
+Access Powershell as Admin and run the command below. 
+
+```powershell
+netsh advfirewall firewall add rule name="Allow ICMPv4-In" protocol=icmpv4:8,any dir=in action=allow
+```
 
