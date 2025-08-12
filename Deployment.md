@@ -144,7 +144,7 @@ Click on **HERE** in Free Software Downloads available.
 ## Step 6 or Step 0: Installing Hyper-V role / Fix the error message in Step 5
 
 
-1. Right click on the Start Menu -> Click on **Windows PowerShell (Admin)
+1. Right click on the Start Menu -> Click on **Windows PowerShell (Admin)**
    
 ![fixissue](images/fix-the-issue-1.png)
 
