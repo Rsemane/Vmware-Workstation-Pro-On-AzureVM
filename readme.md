@@ -5,7 +5,7 @@
 
 # Scenario: Running VMware Workstation pro on Azure VM
 
-For VMware enthusiasts, Broadcom has announced offer of free licenses for VMware Workstation Pro. 
+For VMware enthusiasts, Broadcom has announced offering of free licenses for VMware Workstation Pro. 
 In this guide, you'll learn how to deploy virtual machines using VMware Workstation on Azure, unlocking the scalability and flexibility of the cloud while continuing to use your preferred virtualization platform.
 
 
