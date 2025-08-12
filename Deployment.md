@@ -155,12 +155,22 @@ Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
 ```
 Restart your VM. 
 
-```powershell
-Enable-WindowsOptionalFeature -Online -FeatureName HypervisorPlatform -All
-```
 
-3. 
+## Step 7: Power-on the VM and Install Windows 10
 
+1. Power-On the VM. The error message has gone. 
+
+![bootup](images/windows10-bootedup.png)
+
+2. If you selected in Step 5 point 2, Install later OS. Go to Virtual Machine Settings -> CD/DVD -> Use ISO image -> Select your ISO image -> Click Open -> Check the 2 check boxes inside Device Status -> Click **OK**
+
+![bootup](images/windows10-bootedup-2.png)
+
+![bootup](images/windows10-bootedup-3.png)
+
+3.Follow instructions to Install Windows 10 
+
+![bootup](images/windows10-bootedup-4.png)
 
 
 
