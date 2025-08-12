@@ -73,7 +73,93 @@ Click on **HERE** in Free Software Downloads available.
 ![InstallingVMware](images/install-vmware-workstationpro-8.png)
 
 
+## Step 4: Download Windows 10 ISO / latest version
+
+1. Navigate to https://www.microsoft.com/software-download/windows10. This page provides access to the Windows Media Creation Tool, but not the ISO file directly. In this guide, I’ll show you how to locate and download the Windows 10 ISO file.
+
+![DownloadWindows10ISO](images/download-windows10-iso-1.png)
+
+2. Press **F12** inside Edge Navigator or Google Chrome to access Developper Tools.
    
+![DownloadWindows10ISO](images/download-windows10-iso-2.png)
+
+3. Click the **Mobile button** <img width="19" height="20" alt="image" src="https://github.com/user-attachments/assets/4997a4cf-efe3-4bf5-9ac7-271bbca5f616" /> and then Refresh the page.
+
+![DownloadWindows10ISO](images/download-windows10-iso-3.png)
+
+   
+4. You will be to get the latest version of Windows 10. Click on **Confirm**
+
+![DownloadWindows10ISO](images/download-windows10-iso-4.png)
+
+
+5. Select the product language and then click on **Confirm**
+
+![DownloadWindows10ISO](images/download-windows10-iso-5.png)
+
+6. In the Downloads section, you can click 64-bitios Descargar. Don't worry the Windows installation will be in the language you selected in Step 5.
+ 
+![DownloadWindows10ISO](images/download-windows10-iso-6.png)
+
+ 7. The ISO will be downloaded.
+
+![DownloadWindows10ISO](images/download-windows10-iso-7.png)
+
+
+## Step 5: Creating a VM inside VMware Workstation Pro
+
+1. Click on **File** -> **Create new VM** -> Click **Next**
+   
+![CreatingVM-inWorkstation](images/Create-newvm-1.png)
+
+2. Select **I will install the operating system later** or you can select **Installer disc image file (iso)** -> **Browse** -> Choose the path of the downloaded iso file done in Step 4.
+
+![CreatingVM-inWorkstation](images/Create-newvm-2.png)
+
+
+3.  Select **Microsoft Windows** for the Guest OS and for the Version **Windows 10 X64**. Click **Next**
+   
+![CreatingVM-inWorkstation](images/Create-newvm-3.png)
+
+4.  Set a Virtual Machine Name, location and then click **Next**
+
+![CreatingVM-inWorkstation](images/Create-newvm-4.png)
+
+5.  Choose your size Disk. Click **Next**
+
+![CreatingVM-inWorkstation](images/Create-newvm-5.png)
+
+
+6. Click **Finish**
+
+![CreatingVM-inWorkstation](images/Create-newvm-6.png)
+
+7.  Power on the virtual machine. Note that even if the ISO file has not been selected, the VM can still be started. However, you will encounter an error stating that Hyper-V and VMware Workstation are not compatible. This is why I included enabling the Hyper-V role as a prerequisite. Nevertheless, I wanted to demonstrate what happens when this step is skipped and show the specific error message that appears.
+
+![CreatingVM-inWorkstation](images/Create-newvm-7.png)
+
+![CreatingVM-inWorkstation](images/Create-newvm-8.png)
+
+
+## Step 6 or Step 0: Installing Hyper-V role / Fix the error message in Step 5
+
+
+1. Right click on the Start Menu -> Click on **Windows PowerShell (Admin)
+   
+![fixissue](images/fix-the-issue-1.png)
+
+2. Run the command below.
+
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All
+```
+Restart your VM. 
+
+```powershell
+Enable-WindowsOptionalFeature -Online -FeatureName HypervisorPlatform -All
+```
+
+3. 
 
 
 
