@@ -18,7 +18,7 @@ Click on **HERE** in Free Software Downloads available.
 
 ![DownloadingVMware](images/download-vmware-workstation-pro-4.png)
 
-2. Select from the list VMware Workstation pro. 
+2. Select from the list VMware Workstation Pro. 
 
 ![DownloadingVMware](images/download-vmware-workstation-pro-5.png)
 
