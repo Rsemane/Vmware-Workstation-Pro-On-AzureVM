@@ -34,7 +34,7 @@ Click on **HERE** in Free Software Downloads available.
 
 ![DownloadingVMware](images/download-vmware-workstation-pro-8.png)
 
-**PS: if you were not able, accept the licensing terms, then click on Download button**
+**Note: If you're unable to proceed, please ensure that you have accepted the licensing terms before clicking the 'Download' button."**
 
 
 ## Step 3: Install VMware Workstation Pro
