@@ -181,7 +181,7 @@ VMware Workstation creates two default virtual networks:
 - VMnet1 (Host-Only): Used to establish a private LAN between the host and guest machines without external connectivity.
 There is no need to install a separate DHCP server, as VMware includes a built-in DHCP service for these networks.
 
-To enable network communication between your Azure VM and the guest operating system, ensure that ICMP (ping) is allowed through the Windows Firewall. Alternatively, you can disable the firewall on both the Azure VM and the guest VM to simplify connectivity during testing.
+To verify network communication between your Azure VM and the guest operating system, ensure that ICMP (ping) is allowed through the Windows Firewall. Alternatively, you can disable the firewall on both the Azure VM and the guest VM to simplify connectivity during testing.
 
 
 ## Allow ICMP 
