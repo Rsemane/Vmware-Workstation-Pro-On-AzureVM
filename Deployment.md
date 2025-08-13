@@ -185,7 +185,7 @@ To verify network communication between your Azure VM and the guest operating sy
 
 
 ## Allow ICMP 
-Access Powershell as Admin and run the command below. 
+Access Powershell as Admin and run the command below on Guest OS and Azure VM.
 
 ```powershell
 netsh advfirewall firewall add rule name="Allow ICMPv4-In" protocol=icmpv4:8,any dir=in action=allow
