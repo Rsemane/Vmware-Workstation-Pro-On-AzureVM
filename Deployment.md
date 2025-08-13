@@ -6,7 +6,7 @@
 - **Hypervisor**: Hyper-V must be enabled inside the VM.
 
 ## Step 1: Create Azure VM 
-Create a virtual Machine E2ds SKU, Windows 10 22h2 Enterprise Gen1, choose your preferred region. All other settings remain at their default values. Make sure to enable RDP in NSG and use public IP Standard SKU. 
+Create a virtual Machine E2ds SKU, Windows 10 22h2 Enterprise Gen1, choose your preferred region. All other settings remain at their default values. Make sure to enable RDP in NSG and use public IP.
 
 ![CreationofVM](images/Creating-Virtual-Machine-00.png)
 
