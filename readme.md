@@ -11,8 +11,6 @@ In this guide, you'll learn how to deploy virtual machines using VMware Workstat
 
 # 📦 [Deployment Guide](Deployment.md)
 The main issue arises when installing VMware Workstation Pro and attempting to launch a virtual machine. The following error appears: "VMware Workstation and Hyper-V are not compatible. Remove the Hyper-V role from the system before running VMware Workstation." 
-However, the Hyper-V role is not installed on the system, which makes the error misleading and troubleshooting more complex.
-
 
 # [Resources](Resources.md)
 
