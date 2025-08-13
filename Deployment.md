@@ -51,16 +51,16 @@ Click on **HERE** in Free Software Downloads available.
 
 ![InstallingVMware](images/install-vmware-workstationpro-3.png)
 
-4. Keep default values. Click on **Next**
+4. Retain the default settings and proceed by clicking **Next**
 
 ![InstallingVMware](images/install-vmware-workstationpro-4.png)
 
-5. Keep default values. Click on **Next**
-
+5. Retain the default settings and proceed by clicking **Next**
+   
 ![InstallingVMware](images/install-vmware-workstationpro-5.png)
 
 
-6. Keep default values. Click on **Next**
+7. Retain the default settings and proceed by clicking **Next**
 
 ![InstallingVMware](images/install-vmware-workstationpro-6.png)
 
